@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home page</title>
+	
+<style>
+	body{
+		background-image: url(https://hollowaybenefitconcepts.com/wp-content/uploads/2019/03/Mid-Year-Financial-Analysis.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.page th {
+	
+		background-color: #add8e6;
+		color: white;
+	}
+	#button{
+		position: absolute;
+		left: 42.5%;
+		top:50%;
+	}
+	#xyz{
+		position: absolute;
+		left: 62.5rem;
+		top:30%;
+		border-style: solid ;
+		border-width: 1px;
+		padding: 30px;
+		border-radius: 8px;
+		background-color: rgba(204, 204, 233, 0.699);
+		border-color: #add8e6;
+	}
+	.ip1{
+		margin-top: 15px;
+	}
+	#ip2{
+		margin-bottom: 15px;
+	}
+</style>
+<link rel="stylesheet" type="text/css" href="static/bootstrap.min.css">
+</head>
+<body>
+
+	
+<div id="xyz">
+
+	<h1>Upload your resume</h1>
+
+	<form method="POST" action="/submit" enctype="multipart/form-data">
+	
+	<input type="file" name="userfile" class="ip1">
+	<input type="submit" class="ip1" id="ip2">
+	</form>
+
+	<!-- <a class="btn btn-info" href="/build-resume" role="button">Build Your Resume Here</a> -->
+
+	<!-- <h2> <a href="/build-resume" >xyz</a></h2> -->
+	
+</div>
+
+<div id="button">
+	<a class="btn btn-info" href="/build-resume" role="button">Build Your Resume Here</a>
+</div>
+
+<div class=page>
+
+	<!-- <h1>Suggested jobs</h1>
+	 {% for table in tables %}
+   
+   {{ table|safe }}
+	 {% endfor %} -->
+</div>
+
+
+
+</body>
+
+</html>
